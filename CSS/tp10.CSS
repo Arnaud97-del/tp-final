@@ -1,0 +1,43 @@
+
+#NomJeu {
+	font-family: "Bookman";
+	position: fixed;
+    top: 110px; 
+    left: 655px;
+    color: #AE9321;
+    font-size: 42px;
+    font-style: italic;
+    letter-spacing: 8px;
+
+}
+ 
+#région {
+	font-family: "Georgia";
+	position: fixed;
+    top: 510px; 
+    left: 700px;
+    color: black;
+    border: 2px solid white;
+    border-color: brown;
+}
+
+#choix {
+	font-family: "Georgia";
+	position: fixed;
+    top: 310px; 
+    left: 650px;
+    color: black;
+}
+
+body {
+	background-image: url("images/image.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%
+} 
+
+
+
+
+
+
+

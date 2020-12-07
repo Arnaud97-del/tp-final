@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <title>heroicis</title>
+   <div id="NomJeu">
+      <h2>heroicis</h2>
+   </div>
+  <meta charset="utf-8">
+  <title>Titre de la page</title>
+  <link   rel="stylesheet" type="text/css" href="CSS/tp10.css">
+  <script src="JS/TP10.JS"></script>
+</head>
+<body>
+   <div id="choix">
+        <form id="formulaire" action=# onSubmit="return personnage(this);">
+            <fieldset>
+                <legend class="1">créer son personnage</legend>
+                <lebel for="nom">votre pseudo:</lebel>
+                <input type="text" name="nom" size="12" maxlength="12" placeholder="votre pseudo" required>
+                <br/></br>
+                <lebel for="classe">votre classe :</lebel>
+                <select name="classe">
+                    <option>Elfe</option>
+                    <option>Nain</option>
+                    <option>Mage</option>
+                </select> 
+                <br></br>
+                <lebel for="région">région:</lebel>
+                <select name="région">
+                    <option>skypia</option>
+                    <option>greed island</option>
+                    <option>konoha</option>
+                </select>
+                <br></br>
+                <input type=submit>
+                <input type=reset>
+
+            </fieldset>
+        </form>
+    </div>
+    <div id="région">
+               <input type="button" value="entrer dans la région">
+    </div>
+
+</body>
+</html>
